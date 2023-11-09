@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+
+* {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+h1{
+    font-family: 'Space Mono', serif;
+    font-weight: 600;
+    color: rgb(31, 6, 70);
+    text-align: center;
+    margin-left: -1%;
+    font-size: 40px;
+}
+.container{
+    background-image: url("img1.jpg");
+}
+.calculator{
+    max-width:400px;
+    background: #eee;
+    margin-left: 35%;
+    margin-top: 30px;
+    
+}
+.calculator-buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    border:0;
+}
+.calc-numbers{
+    font-family: 'Space Mono', serif;
+    background: black;
+    color: white;
+    font-size: 2em;
+    border:0;
+    padding: 0.3em;
+    text-align: right;
+    width: 100%;
+    height: 100px;
+}
+.span-2{
+    grid-column: span 2;
+}
+.span-3{
+    grid-column: span 3;
+}
+.btn{
+    font-size:1em;
+    height: 65px;
+    border:1px solid purple;
+}
+.btn:hover{
+    background: #fff;
+}
+.purple{
+    background-color:rgb(174, 0, 255);
+}
